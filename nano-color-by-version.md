@@ -1,5 +1,60 @@
 # Nano color support by version
 
+## summary:
+
+nano v6:
+
+rosy
+beet
+plum
+sea
+sky
+slate
+teal
+sage
+brown
+ocher
+sand
+tawny
+brick
+crimson
+
+nano v5.8:
+
+grey
+gray
+
+nano v5.0: (no lighter versions)
+
+pink
+purple
+mauve
+lagoon
+mint
+lime
+peach
+orange
+latte
+
+nano v5.0 (add lighter versions):
+
+red
+green
+blue
+yellow
+cyan
+magenta
+white
+black
+
+nano v5.0 (all colors)
+bold
+italic
+
+nano v2.9.5
+normal
+
+
 ## according to IMPROVEMENTS
 
 [IMPROVEMENTS](https://nano-editor.org/dist/latest/IMPROVEMENTS)
