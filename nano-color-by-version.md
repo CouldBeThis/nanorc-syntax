@@ -4,8 +4,6 @@
 
 ```
 ## . . . . . . . . . v.6.0 . . . . . . . . . .##
-nano v6:
-
 rosy
 beet
 plum
@@ -22,13 +20,11 @@ brick
 crimson
 
 ## . . . . . . . . . v.5.8 . . . . . . . . . .##
-
 grey
 gray
 
 ## . . . . . . . . . v.5.0 . . . . . . . . . .##
 # (no lighter versions)
-
 pink
 purple
 mauve
@@ -42,14 +38,14 @@ latte
 ## . . . . . . . . . v.5.0 . . . . . . . . . .##
 # (add lighter versions):
 
-red
-green
-blue
-yellow
-cyan
-magenta
-white
-black
+lightred
+lightgreen
+lightblue
+lightyellow
+lightcyan
+lightmagenta
+lightwhite
+lightblack
 
 ## . . . . . . . . . v.6.0 . . . . . . . . . .##
 # (all colors)
