@@ -19,81 +19,153 @@ icolor brightred "^[[:space:]]*((un)?set|include|syntax|i?color).*$"
 ## . . . . . . . . . . . . . . . . . . . . . .##
 ## - - - - - - - - FOREGROUND - - - - - - - - ##
 ## . . . . . . . . . BASIC . . . . . . . . . .##
-
 # Will change with terminal color scheme:
-icolor black " black"
-icolor blue " blue"
-icolor cyan " cyan"
-icolor green " green"
-icolor magenta " magenta"
-icolor red " red"
-icolor white " white"
+icolor black "black"
+icolor blue "blue"
+icolor cyan "cyan"
+icolor green "green"
+icolor magenta "magenta"
+icolor red "red"
+icolor white "white"
 
 ## . . . . . . . . v.2.9.6 . . . . . . . . . .##
 
 # Will change with terminal color scheme:
-icolor normal " normal"
+icolor normal "normal"
 
 ## . . . . . . . . . v.5.0 . . . . . . . . . .##
 
 # Stay the same regardless of terminal color scheme:
-icolor lagoon " lagoon"
-icolor latte " latte"
-icolor lime " lime"
-icolor mauve " mauve"
-icolor mint " mint"
-icolor orange " orange"
-icolor peach " peach"
-icolor pink " pink"
-icolor purple " purple"
+icolor lagoon "lagoon"
+icolor latte "latte"
+icolor lime "lime"
+icolor mauve "mauve"
+icolor mint "mint"
+icolor orange "orange"
+icolor peach "peach"
+icolor pink "pink"
+icolor purple "purple"
 
 # Will change with terminal color scheme:
-icolor lightblack " lightblack"
-icolor lightblue " lightblue"
-icolor lightcyan " lightcyan"
-icolor lightgreen " lightgreen"
-icolor lightmagenta " lightmagenta"
-icolor lightred " lightred"
-icolor lightwhite " lightwhite"
-icolor lightyellow " lightyellow"
+icolor lightblack "lightblack"
+icolor lightblue "lightblue"
+icolor lightcyan "lightcyan"
+icolor lightgreen "lightgreen"
+icolor lightmagenta "lightmagenta"
+icolor lightred "lightred"
+icolor lightwhite "lightwhite"
+icolor lightyellow "lightyellow"
 
 ## . . . . . . . . . v.5.8 . . . . . . . . . .##
 
 # Will change with terminal color scheme:
-icolor gray " gray"
-icolor grey " grey"
+icolor gray "gray"
+icolor grey "grey"
 
 ## . . . . . . . . . v.6.0 . . . . . . . . . .##
 
 # Stay the same regardless of terminal color scheme:
-icolor beet " beet"
-icolor brick " brick"
-icolor brown " brown"
-icolor crimson " crimson"
-icolor ocher " ocher"
-icolor plum " plum"
-icolor rosy " rosy"
-icolor sage " sage"
-icolor sand " sand"
-icolor sea " sea"
-icolor sky " sky"
-icolor slate " slate"
-icolor tawny " tawny"
-icolor teal " teal"
+icolor beet "beet"
+icolor brick "brick"
+icolor brown "brown"
+icolor crimson "crimson"
+icolor ocher "ocher"
+icolor plum "plum"
+icolor rosy "rosy"
+icolor sage "sage"
+icolor sand "sand"
+icolor sea "sea"
+icolor sky "sky"
+icolor slate "slate"
+icolor tawny "tawny"
+icolor teal "teal"
 
 ##- - - - - - - - BRIGHT/BOLD- - - - - - - - -##
 ## . . . . . . . . . BASIC . . . . . . . . . .##
 
 # Will change with terminal color scheme:
-icolor brightblack " brightblack"
-icolor brightred " brightred"
-icolor brightgreen " brightgreen"
-icolor brightyellow " brightyellow"
-icolor brightblue " brightblue"
-icolor brightmagenta " brightmagenta"
-icolor brightcyan " brightcyan"
-icolor brightwhite " brightwhite"
-icolor ,black ",black "
+icolor brightblack "brightblack"
+icolor brightred "brightred"
+icolor brightgreen "brightgreen"
+icolor brightyellow "brightyellow"
+icolor brightblue "brightblue"
+icolor brightmagenta "brightmagenta"
+icolor brightcyan "brightcyan"
+icolor brightwhite "brightwhite"
+
+# # Will change with terminal color scheme:
+# icolor black " black"
+# icolor blue " blue"
+# icolor cyan " cyan"
+# icolor green " green"
+# icolor magenta " magenta"
+# icolor red " red"
+# icolor white " white"
+#
+# ## . . . . . . . . v.2.9.6 . . . . . . . . . .##
+#
+# # Will change with terminal color scheme:
+# icolor normal " normal"
+#
+# ## . . . . . . . . . v.5.0 . . . . . . . . . .##
+#
+# # Stay the same regardless of terminal color scheme:
+# icolor lagoon " lagoon"
+# icolor latte " latte"
+# icolor lime " lime"
+# icolor mauve "mauve"
+# icolor mint " mint"
+# icolor orange " orange"
+# icolor peach " peach"
+# icolor pink " pink"
+# icolor purple " purple"
+#
+# # Will change with terminal color scheme:
+# icolor lightblack " lightblack"
+# icolor lightblue " lightblue"
+# icolor lightcyan " lightcyan"
+# icolor lightgreen " lightgreen"
+# icolor lightmagenta " lightmagenta"
+# icolor lightred " lightred"
+# icolor lightwhite " lightwhite"
+# icolor lightyellow " lightyellow"
+#
+# ## . . . . . . . . . v.5.8 . . . . . . . . . .##
+#
+# # Will change with terminal color scheme:
+# icolor gray " gray"
+# icolor grey " grey"
+#
+# ## . . . . . . . . . v.6.0 . . . . . . . . . .##
+#
+# # Stay the same regardless of terminal color scheme:
+# icolor beet " beet"
+# icolor brick " brick"
+# icolor brown " brown"
+# icolor crimson " crimson"
+# icolor ocher " ocher"
+# icolor plum " plum"
+# icolor rosy " rosy"
+# icolor sage " sage"
+# icolor sand " sand"
+# icolor sea " sea"
+# icolor sky " sky"
+# icolor slate " slate"
+# icolor tawny " tawny"
+# icolor teal " teal"
+#
+# ##- - - - - - - - BRIGHT/BOLD- - - - - - - - -##
+# ## . . . . . . . . . BASIC . . . . . . . . . .##
+#
+# # Will change with terminal color scheme:
+# icolor brightblack " brightblack"
+# icolor brightred " brightred"
+# icolor brightgreen " brightgreen"
+# icolor brightyellow " brightyellow"
+# icolor brightblue " brightblue"
+# icolor brightmagenta " brightmagenta"
+# icolor brightcyan " brightcyan"
+# icolor brightwhite " brightwhite"
 
 ##- - - - - - - - BACKGROUND - - - - - - - - -##
 
@@ -132,7 +204,7 @@ icolor ,lightblack ",lightblack"
 icolor ,lightblue ",lightblue"
 icolor ,lightcyan ",lightcyan"
 icolor ,lightgreen ",lightgreen"
-icolor ,lightmagenta ",lighbbbbb\\\tmagenta"
+icolor ,lightmagenta ",lightmagenta"
 icolor ,lightred ",lightred"
 icolor ,lightwhite ",lightwhite"
 icolor ,lightyellow ",lightyellow"
