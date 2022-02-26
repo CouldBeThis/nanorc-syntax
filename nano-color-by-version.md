@@ -7,6 +7,7 @@
 
 ## . . . . . . . . . BASIC . . . . . . . . . .##
 
+# Will change with terminal color scheme:
 black
 blue
 cyan
@@ -18,11 +19,13 @@ white
 
 
 ## . . . . . . . . v.2.9.6 . . . . . . . . . .##
+
+# Will change with terminal color scheme:
 normal
 
 ## . . . . . . . . . v.5.0 . . . . . . . . . .##
-# (no lighter versions)
 
+# Stay the same regardless of terminal color scheme:
 lagoon
 latte
 lime
@@ -33,7 +36,7 @@ peach
 pink
 purple
 
-# (do these ones work differently?):
+# Will change with terminal color scheme:
 lightblack
 lightblue
 lightcyan
@@ -50,11 +53,13 @@ lightyellow
 
 ## . . . . . . . . . v.5.8 . . . . . . . . . .##
 
+# Will change with terminal color scheme:
 gray
 grey
 
 ## . . . . . . . . . v.6.0 . . . . . . . . . .##
 
+# Stay the same regardless of terminal color scheme:
 beet
 brick
 brown
