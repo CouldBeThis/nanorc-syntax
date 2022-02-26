@@ -13,6 +13,7 @@ cyan
 green
 magenta
 red
+yellow
 white
 
 
