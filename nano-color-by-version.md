@@ -1,7 +1,9 @@
 # Nano color support by version
 
-## summary:
+## summary
 
+```
+## . . . . . . . . . v.6.0 . . . . . . . . . .##
 nano v6:
 
 rosy
@@ -19,12 +21,13 @@ tawny
 brick
 crimson
 
-nano v5.8:
+## . . . . . . . . . v.5.8 . . . . . . . . . .##
 
 grey
 gray
 
-nano v5.0: (no lighter versions)
+## . . . . . . . . . v.5.0 . . . . . . . . . .##
+# (no lighter versions)
 
 pink
 purple
@@ -36,7 +39,8 @@ peach
 orange
 latte
 
-nano v5.0 (add lighter versions):
+## . . . . . . . . . v.5.0 . . . . . . . . . .##
+# (add lighter versions):
 
 red
 green
@@ -47,13 +51,16 @@ magenta
 white
 black
 
-nano v5.0 (all colors)
+## . . . . . . . . . v.6.0 . . . . . . . . . .##
+# (all colors)
 bold
 italic
 
-nano v2.9.5
+
+## . . . . . . . . v.2.9.6 . . . . . . . . . .##
 normal
 
+```
 
 ## according to IMPROVEMENTS
 
