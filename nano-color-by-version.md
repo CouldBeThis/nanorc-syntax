@@ -3,58 +3,72 @@
 ## summary
 
 ```
-## . . . . . . . . . v.6.0 . . . . . . . . . .##
-rosy
-beet
-plum
-sea
-sky
-slate
-teal
-sage
-brown
-ocher
-sand
-tawny
-brick
-crimson
 
-## . . . . . . . . . v.5.8 . . . . . . . . . .##
-grey
-gray
 
-## . . . . . . . . . v.5.0 . . . . . . . . . .##
-# (no lighter versions)
-pink
-purple
-mauve
-lagoon
-mint
-lime
-peach
-orange
-latte
+## . . . . . . . . . BASIC . . . . . . . . . .##
 
-## . . . . . . . . . v.5.0 . . . . . . . . . .##
-# (add lighter versions):
-
-lightred
-lightgreen
-lightblue
-lightyellow
-lightcyan
-lightmagenta
-lightwhite
-lightblack
-
-## . . . . . . . . . v.6.0 . . . . . . . . . .##
-# (all colors)
-bold
-italic
+black
+blue
+cyan
+green
+magenta
+red
+white
 
 
 ## . . . . . . . . v.2.9.6 . . . . . . . . . .##
 normal
+
+## . . . . . . . . . v.5.0 . . . . . . . . . .##
+# (no lighter versions)
+
+lagoon
+latte
+lime
+mauve
+mint
+orange
+peach
+pink
+purple
+
+# (do these ones work differently?):
+lightblack
+lightblue
+lightcyan
+lightgreen
+lightmagenta
+lightred
+lightwhite
+lightyellow
+
+## . . . . . . . . . v.5.0 . . . . . . . . . .##
+# (all colors)
+# bold
+# italic
+
+## . . . . . . . . . v.5.8 . . . . . . . . . .##
+
+gray
+grey
+
+## . . . . . . . . . v.6.0 . . . . . . . . . .##
+
+beet
+brick
+brown
+crimson
+ocher
+plum
+rosy
+sage
+sand
+sea
+sky
+slate
+tawny
+teal
+
 
 ```
 
