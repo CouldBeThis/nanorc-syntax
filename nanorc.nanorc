@@ -136,6 +136,13 @@ icolor ,lightred ",lightred"
 icolor ,lightwhite ",lightwhite"
 icolor ,lightyellow ",lightyellow"
 
+## bold must come before italic
+icolor bold,normal " bold,"
+icolor italic,normal "italic,"
+## makes "bold and italic" both bold and italic (together)
+# icolor bold,italic,normal "bold,italic,"
+
+
 ## . . . . . . . . . v.5.8 . . . . . . . . . .##
 
 # Will change with terminal color scheme:
