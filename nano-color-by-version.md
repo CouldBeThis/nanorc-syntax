@@ -47,9 +47,8 @@ lightwhite
 lightyellow
 
 ## . . . . . . . . . v.5.0 . . . . . . . . . .##
-# (all colors)
-# bold
-# italic
+bold
+italic
 
 ## . . . . . . . . . v.5.8 . . . . . . . . . .##
 
