@@ -1,0 +1,213 @@
+
+################################################
+## . . . . . . . . . . . . . . . . . . . . . .##
+## - - - - - - - - - - - - - - - - - - - - - -##
+
+syntax "Nanorc" "\.?nanorc$"
+comment "#"
+
+## ,,,,,;;;;;]]]]]/////|\\\\\[[[[[[;;;;;,,,,, ##
+################################################
+## . . . . . . . . . . . . . . . . . . . . . .##
+## - - - Possible errors and parameters- - - -##
+
+## Possible errors and parameters
+icolor brightred "^[[:space:]]*((un)?set|include|syntax|i?color).*$"
+
+## ,,,,,;;;;;]]]]]/////|\\\\\[[[[[[;;;;;,,,,, ##
+################################################
+## . . . . . . . . . . . . . . . . . . . . . .##
+## - - - - - - - - FOREGROUND - - - - - - - - ##
+## . . . . . . . . . BASIC . . . . . . . . . .##
+## Will change with terminal color scheme:
+icolor black "black"
+icolor blue "blue"
+icolor cyan "cyan"
+icolor green "green"
+icolor magenta "magenta"
+icolor red "red"
+icolor white "white"
+
+## . . . . . . . . v.2.9.6 . . . . . . . . . .##
+
+## Will change with terminal color scheme:
+icolor normal "normal"
+
+## . . . . . . . . . v.5.0 . . . . . . . . . .##
+
+## Stay the same regardless of terminal color scheme:
+icolor lagoon "lagoon"
+icolor latte "latte"
+icolor lime "lime"
+icolor mauve "mauve"
+icolor mint "mint"
+icolor orange "orange"
+icolor peach "peach"
+icolor pink "pink"
+icolor purple "purple"
+
+## Will change with terminal color scheme:
+icolor lightblack "lightblack"
+icolor lightblue "lightblue"
+icolor lightcyan "lightcyan"
+icolor lightgreen "lightgreen"
+icolor lightmagenta "lightmagenta"
+icolor lightred "lightred"
+icolor lightwhite "lightwhite"
+icolor lightyellow "lightyellow"
+
+## . . . . . . . . . v.5.8 . . . . . . . . . .##
+
+# Will change with terminal color scheme:
+icolor gray "gray"
+icolor grey "grey"
+
+## . . . . . . . . . v.6.0 . . . . . . . . . .##
+
+## Stay the same regardless of terminal color scheme:
+icolor beet "beet"
+icolor brick "brick"
+icolor brown "brown"
+icolor crimson "crimson"
+icolor ocher "ocher"
+icolor plum "plum"
+icolor rosy "rosy"
+icolor sage "sage"
+icolor sand "sand"
+icolor sea "sea"
+icolor sky "sky"
+icolor slate "slate"
+icolor tawny "tawny"
+icolor teal "teal"
+
+##- - - - - - - - BRIGHT/BOLD- - - - - - - - -##
+## . . . . . . . . . BASIC . . . . . . . . . .##
+
+## Will change with terminal color scheme:
+icolor brightblack "brightblack"
+icolor brightred "brightred"
+icolor brightgreen "brightgreen"
+icolor brightyellow "brightyellow"
+icolor brightblue "brightblue"
+icolor brightmagenta "brightmagenta"
+icolor brightcyan "brightcyan"
+icolor brightwhite "brightwhite"
+
+
+##- - - - - - - - BACKGROUND - - - - - - - - -##
+
+## . . . . . . . . . BASIC . . . . . . . . . .##
+
+## Will change with terminal color scheme:
+icolor ,black ",black$"
+icolor ,blue ",blue$"
+icolor ,cyan ",cyan$"
+icolor ,green ",green$"
+icolor ,magenta ",magenta$"
+icolor ,red ",red$"
+icolor ,yellow ",yellow$"
+icolor ,white ",white$"
+
+
+## . . . . . . . . v.2.9.6 . . . . . . . . . .##
+
+## Will change with terminal color scheme:
+icolor ,normal ",normal$"
+
+
+120 icolor ,lagoon ",lagoon$"
+121 icolor ,latte ",latte$"
+122 icolor ,lime ",lime$"
+123 icolor ,mauve ",mauve$"
+124 icolor ,mint ",mint$"
+125 icolor ,orange ",orange$"
+126 icolor ,peach ",peach$"
+127 icolor ,pink ",pink$"
+128 icolor ,purple ",purple$"## . . . . . . . . . v.5.0 . . . . . . . . . .##
+
+## Stay the same regardless of terminal color scheme:
+icolor ,lagoon ",lagoon$"
+icolor ,latte ",latte$"
+icolor ,lime ",lime$"
+icolor ,mauve ",mauve$"
+icolor ,mint ",mint$"
+icolor ,orange ",orange$"
+icolor ,peach ",peach$"
+icolor ,pink ",pink$"
+icolor ,purple ",purple$"
+
+## Will change with terminal color scheme:
+icolor ,lightblack ",lightblack$"
+icolor ,lightblue ",lightblue$"
+icolor ,lightcyan ",lightcyan$"
+icolor ,lightgreen ",lightgreen$"
+icolor ,lightmagenta ",lightmagenta$"
+icolor ,lightred ",lightred$"
+icolor ,lightwhite ",lightwhite$"
+icolor ,lightyellow ",lightyellow$"
+
+## bold must come before italic
+icolor bold,normal " bold,"
+icolor italic,normal "italic,"
+## makes "bold and italic" both bold and italic (together)
+# icolor bold,italic,normal "bold,italic,$"
+
+
+## . . . . . . . . . v.5.8 . . . . . . . . . .##
+
+## Will change with terminal color scheme:
+icolor ,gray ",gray$"
+icolor ,grey ",grey$"
+
+## . . . . . . . . . v.6.0 . . . . . . . . . .##
+
+## Stay the same regardless of terminal color scheme:
+icolor ,beet ",beet$"
+icolor ,brick ",brick$"
+icolor ,brown ",brown$"
+icolor ,crimson ",crimson$"
+icolor ,ocher ",ocher$"
+icolor ,plum ",plum$"
+icolor ,rosy ",rosy$"
+icolor ,sage ",sage$"
+icolor ,sand ",sand$"
+icolor ,sea ",sea$"
+icolor ,sky ",sky$"
+icolor ,slate ",slate$"
+icolor ,tawny ",tawny$"
+icolor ,teal ",teal$"
+
+
+################### SYNTAX #####################
+## . . . . . . . . . . . . . . . . . . . . . .##
+
+## - - - - - - - - -? MISC ? - - - - - - - - -##
+
+icolor magenta "^[[:space:]]*i?color\>" "\<(start|end)="
+icolor yellow "^[[:space:]]*(set|unset)[[:space:]]+(errorcolor|functioncolor|keycolor|numbercolor|selectedcolor|statuscolor|stripecolor|titlecolor)[[:space:]]+?\>"
+
+## - - - - - - - - -Keywords - - - - - - - - -##
+icolor brightgreen "^[[:space:]]*(set|unset)[[:space:]]+(afterends|allow_insecure_backup|atblanks|autoindent|backup|backupdir|boldtext|brackets|breaklonglines|casesensitive|constantshow|cutfromcursor|emptyline|errorcolor|fill|functioncolor|guidestripe|historylog|jumpyscrolling|keycolor|linenumbers|locking|matchbrackets|morespace|mouse|multibuffer|noconvert|nohelp|nonewlines|nopauses|nowrap|numbercolor|operatingdir|positionlog|preserve|punct|quickblank|quotestr|rawsequences|rebinddelete|regexp|selectedcolor|showcursor|smarthome|smooth|softwrap|speller|statuscolor|stripecolor|suspend|tabsize|tabstospaces|tempfile|titlecolor|trimblanks|unix|view|whitespace|wordbounds|wordchars|zap)\>"
+icolor green "^[[:space:]]*(bind|set|unset|syntax|header|include|magic)\>"
+
+## - - - - - - - - -Strings- - - - - - - - - -##
+icolor white ""(\\.|[^"])*""
+
+## - - - - - - - - Comments - - - - - - - - - ##
+icolor brightblue "^[[:space:]]*#.*$"
+icolor cyan "^[[:space:]]*##.*$"
+
+## - - - - - Trailing Whitespaces - - - - - - ##
+icolor ,green "[[:space:]]+$"
+
+
+
+
+
+
+
+
+## ,,,,,;;;;;]]]]]/////|\\\\\[[[[[[;;;;;,,,,, ##
+################################################
+## . . . . . . . . . . . . . . . . . . . . . .##
+## - - - - - - - - - - - - - - - - - - - - - -##
