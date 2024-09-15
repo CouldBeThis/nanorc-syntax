@@ -114,7 +114,16 @@ icolor ,white ",white$"
 ## Will change with terminal color scheme:
 icolor ,normal ",normal$"
 
-## . . . . . . . . . v.5.0 . . . . . . . . . .##
+
+120 icolor ,lagoon ",lagoon$"
+121 icolor ,latte ",latte$"
+122 icolor ,lime ",lime$"
+123 icolor ,mauve ",mauve$"
+124 icolor ,mint ",mint$"
+125 icolor ,orange ",orange$"
+126 icolor ,peach ",peach$"
+127 icolor ,pink ",pink$"
+128 icolor ,purple ",purple$"## . . . . . . . . . v.5.0 . . . . . . . . . .##
 
 ## Stay the same regardless of terminal color scheme:
 icolor ,lagoon ",lagoon$"
